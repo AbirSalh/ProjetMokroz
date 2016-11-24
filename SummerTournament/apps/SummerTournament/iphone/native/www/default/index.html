@@ -1,0 +1,84 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SummerTournament</title>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+    		<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		 WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "SummerTournament",
+   "APP_ID": "SummerTournament",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "iphone",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "3730803912",
+   "WORKLIGHT_PLATFORM_VERSION": "6.2.0.01.20141216-0427",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/SummerTournament\/iphone\/"
+};
+</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script>window.$ = window.jQuery = WLJQ;</script>
+    </head>
+    <body style="display: none;">
+    		<!--application UI goes here-->
+        <div class="galleryContainer">
+            <h1>Some Tide for your gallery</h1>
+            <div class="galleryThumbnailsContainer">
+                <div class="galleryThumbnails">
+                    <a class="thumbnailsimage1" href="javascript.changeimage1"><img alt="" height="100" src="images/thumbs/image1.jpg" width="auto"></a>
+    	            <a class="thumbnailsimage2" href="javascript.changeimage2"><img alt="" height="100" src="images/thumbs/image2.jpg" width="auto"></a>
+    	            <a class="thumbnailsimage3" href="javascript.changeimage3"><img alt="" height="100" src="images/thumbs/image3.jpg" width="auto"></a>
+    	            <a class="thumbnailsimage4" href="javascript.changeimage4"><img alt="" height="100" src="images/thumbs/image4.jpg" width="auto"></a>
+    	            <a class="thumbnailsimage5" href="javascript.changeimage5"><img alt="" height="100" src="images/thumbs/image5.jpg" width="auto"></a>
+    	            <a class="thumbnailsimage6" href="javascript.changeimage6"><img alt="" height="100" src="images/thumbs/image6.jpg" width="auto"></a>
+    	            <a class="thumbnailsimage7" href="javascript.changeimage7"><img alt="" height="100" src="images/thumbs/image7.jpg" width="auto"></a>
+    	            <a class="thumbnailsimage8" href="javascript.changeimage8"><img alt="" height="100" src="images/thumbs/image8.jpg" width="auto"></a>
+                </div>
+            </div>
+            <div class="galleryPreviewContainer">
+                <div class="galleryPreviewImage">
+                    <img alt="" class="previewimage1" height="auto" src="images/image1.jpg" width="900">
+    		        <img alt="" class="previewimage2" height="auto" src="images/image2.jpg" width="900">
+    		         <img alt="" class="previewimage3" height="auto" src="images/image3.jpg" width="900">
+    		        <img alt="" class="previewimage4" height="auto" src="images/image4.jpg" width="900">
+    		         <img alt="" class="previewimage5" height="auto" src="images/image5.jpg" width="900">
+    		        <img alt="" class="previewimage6" height="auto" src="images/image6.jpg" width="900">
+    		         <img alt="" class="previewimage7" height="auto" src="images/image7.jpg" width="900">
+    		        <img alt="" class="previewimage8" height="auto" src="images/image8.jpg" width="900">
+    		      </div>
+                <div class="galleryPreviewArrows">
+                    <a class="previousSlideArrow" href="#">&lt;</a>
+    		        <a class="nextSlideArrow" href="#">&gt;</a>
+                </div>
+            </div>
+            <div class="galleryNavigationBullets">
+                <a class="galleryBullet1" href="javascript.changeimage1"><span>Bullet</span></a>
+    		       <a class="galleryBullet2" href="javascript.changeimage2"><span>Bullet</span></a>
+    		        <a class="galleryBullet1" href="javascript.changeimage3"><span>Bullet</span></a>
+    		       <a class="galleryBullet2" href="javascript.changeimage4"><span>Bullet</span></a>
+    		        <a class="galleryBullet1" href="javascript.changeimage5"><span>Bullet</span></a>
+    		       <a class="galleryBullet2" href="javascript.changeimage6"><span>Bullet</span></a>
+    		        <a class="galleryBullet1" href="javascript.changeimage7"><span>Bullet</span></a>
+    		       <a class="galleryBullet2" href="javascript.changeimage8"><span>Bullet</span></a>
+            </div>
+        </div>
+        <script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    </body>
+</html>
